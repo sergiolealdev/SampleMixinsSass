@@ -1,0 +1,19 @@
+//Variables
+$main-button-color: #81C3E5;
+$regular-button-color: #47c333;
+$width-all-buttons: 250px;
+$padding-all-buttons: 5px 5px 5px 5px;
+
+//Style for the main button
+.main-button {
+	background-color: $main-button-color;
+	width:            $width-all-buttons;
+	padding:          $padding-all-buttons;
+}
+
+//Style for the regular button
+.regular-button {
+	background-color: $regular-button-color;
+	width:            $width-all-buttons;
+	padding:          $padding-all-buttons;
+}

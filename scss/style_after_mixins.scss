@@ -1,0 +1,22 @@
+//Variables
+$main-button-color: #81C3E5;
+$regular-button-color: #47c333;
+$width-all-buttons: 250px;
+$padding-all-buttons: 5px 5px 5px 5px;
+
+//Mixin to group common features of our buttons
+@mixin all-buttons($button-background-color) {
+	background-color: $button-background-color;
+	width:            $width-all-buttons;
+	padding:          $padding-all-buttons;
+}
+
+//Style for the main button
+.main-button {
+	@include all-buttons($main-button-color);
+}
+
+//Style for the regular button
+.regular-button {
+	@include all-buttons($regular-button-color);
+}
